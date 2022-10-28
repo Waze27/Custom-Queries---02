@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/hybernate_exercise
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show_sql: true
+    hibernate:
+      ddl-auto: update
